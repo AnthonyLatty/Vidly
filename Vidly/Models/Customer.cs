@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Vidly.Models
 {
@@ -16,5 +17,8 @@ namespace Vidly.Models
         public MembershipType MembershipType { get; set; }
 
         public byte MembershipTypeId { get; set; } // Foriegn key in entity framework
+
+        [Display(Name = "Date of Birth")]
+        public DateTime? BirthDate { get; set; }
     }
 }

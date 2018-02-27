@@ -145,8 +145,10 @@ C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.Migratio
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCstomerName.resources
+C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
+C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetNameOfMembershipTypes.resources
+C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateToCustomer.resources
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.pdb
-C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
