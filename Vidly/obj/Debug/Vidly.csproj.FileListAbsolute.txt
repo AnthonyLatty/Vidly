@@ -152,3 +152,5 @@ C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.csproj.G
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
+C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete

@@ -50,3 +50,4 @@ C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\obj\Debug\Vidly.Te
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.csproj.CoreCompileInputs.cache
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.dll
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.pdb
+C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.csproj.CopyComplete

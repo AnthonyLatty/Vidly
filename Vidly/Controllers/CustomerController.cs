@@ -2,12 +2,13 @@
 using System.Linq;
 using System.Web.Mvc;
 using Vidly.Models;
+using Vidly.ViewModels;
 
 namespace Vidly.Controllers
 {
     public class CustomerController : Controller
     {
-        private ApplicationDbContext _context; // Intialize Db context
+        private readonly ApplicationDbContext _context; // Intialize Db context
 
         public CustomerController()
         {
@@ -19,6 +20,37 @@ namespace Vidly.Controllers
             _context.Dispose();
         }
 
+       
+        public ActionResult NewCustomer()
+        {
+            var membershipTypes = _context.MembershipTypes.ToList();
+            var viewModel = new NewCustomerViewModel()
+            {
+                MembershipTypes = membershipTypes
+            };
+
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        public ActionResult Save(Customer customer)
+        {
+            if (customer.Id == 0)
+                _context.Customers.Add(customer);
+            else
+            {
+                var customerInDb = _context.Customers.Single(c => c.Id == customer.Id);
+
+                customerInDb.Name = customer.Name;
+                customerInDb.BirthDate = customer.BirthDate;
+                customerInDb.MembershipTypeId = customer.MembershipTypeId;
+                customerInDb.IsSubscribedToNewsLetter = customer.IsSubscribedToNewsLetter;
+            }
+    
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Customer");
+        }
 
         // GET: Customer
         public ActionResult Index()

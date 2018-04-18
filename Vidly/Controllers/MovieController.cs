@@ -6,7 +6,7 @@ namespace Vidly.Controllers
 {
     public class MovieController : Controller
     {
-        private ApplicationDbContext _context; // Intialize Db context
+        private readonly ApplicationDbContext _context; // Intialize Db context
 
         public MovieController()
         {
@@ -16,6 +16,29 @@ namespace Vidly.Controllers
         protected override void Dispose(bool disposing)
         {
             _context.Dispose();
+        }
+
+        public ActionResult NewMovie()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Save(Movie movie)
+        {
+            if (movie.Id == 0)
+                _context.Movies.Add(movie);
+            else
+            {
+                var movieInDb = _context.Movies.Single(c => c.Id == movie.Id);
+
+                movieInDb.Name = movie.Name;
+                
+            }
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Movie");
         }
 
 

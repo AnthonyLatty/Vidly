@@ -16,6 +16,7 @@ namespace Vidly.Models
         // Navigation type or association between customer and membership
         public MembershipType MembershipType { get; set; }
 
+        [Display(Name = "Membership Type")]
         public byte MembershipTypeId { get; set; } // Foriegn key in entity framework
 
         [Display(Name = "Date of Birth")]
