@@ -20,6 +20,7 @@ namespace Vidly.Models
         public byte MembershipTypeId { get; set; } // Foriegn key in entity framework
 
         [Display(Name = "Date of Birth")]
+        [Min18YearsIfAMember]
         public DateTime? BirthDate { get; set; }
     }
 }

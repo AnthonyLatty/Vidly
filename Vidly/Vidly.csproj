@@ -229,12 +229,21 @@
     <Compile Include="Migrations\201802270010376_AddBirthdateToCustomer.Designer.cs">
       <DependentUpon>201802270010376_AddBirthdateToCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804180040215_editMovie.cs" />
+    <Compile Include="Migrations\201804180040215_editMovie.Designer.cs">
+      <DependentUpon>201804180040215_editMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804200429147_addErrorValidation.cs" />
+    <Compile Include="Migrations\201804200429147_addErrorValidation.Designer.cs">
+      <DependentUpon>201804200429147_addErrorValidation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
+    <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -349,6 +358,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802270010376_AddBirthdateToCustomer.resx">
       <DependentUpon>201802270010376_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804180040215_editMovie.resx">
+      <DependentUpon>201804180040215_editMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804200429147_addErrorValidation.resx">
+      <DependentUpon>201804200429147_addErrorValidation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

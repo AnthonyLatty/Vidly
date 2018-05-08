@@ -46,8 +46,8 @@ C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\bin\Debug\Microsof
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\bin\Debug\EntityFramework.xml
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.csprojResolveAssemblyReference.cache
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.csproj.CoreCompileInputs.cache
+C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.csproj.CopyComplete
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.dll
 C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.pdb
-C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.csproj.CopyComplete
+C:\Users\mlatt\Desktop\Learning\ASP.NET MVC\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.csprojAssemblyReference.cache
